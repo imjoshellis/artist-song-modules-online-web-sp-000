@@ -6,4 +6,7 @@ module Memorable
   def count
     self.all.count
   end
+  def to_param
+    self.name.downcase.gsub(' ', '-')
+  end
 end
