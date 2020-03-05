@@ -1,5 +1,4 @@
 require 'pry'
-require './config/environment'
 
 class Artist
   attr_accessor :name
